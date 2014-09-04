@@ -10,7 +10,7 @@ var	me1 = {
 /* console.log (me1["name"]);
 console.log (person["age"]);
 
-person["age"]=12
+person["age"]=12;
 person["name"]= "football"
 
 console.log (person["name"]);
@@ -24,6 +24,7 @@ console.log (person["age"]);*/
 		
 
 var speak = function (person) {
-	console.log (person["name"] + " says \"" + person["firstWord"] + "\" for the first time")
-}
-speak(me1)
+	console.log (person["name"] + " says \"" + person["firstWord"] + "\" for the first time");
+};
+
+speak(me1);
