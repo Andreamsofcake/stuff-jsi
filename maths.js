@@ -10,5 +10,4 @@ var mathStuffs = function (a, b) {
 	console.log(a + "-" + b + "=" + sub);
 };
 
-
-mathStuffs(2,5)
+mathStuffs (2, 5)
